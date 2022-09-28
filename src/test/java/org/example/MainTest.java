@@ -58,4 +58,17 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void when15thenReturnFizzbuzz() {
+        // given
+        int number = 15;
+
+        // when
+        String actual = Main.fizzbuzz(number);
+
+        // then
+        String expected = "fizzbuzz";
+        assertEquals(expected, actual);
+    }
+
 }
