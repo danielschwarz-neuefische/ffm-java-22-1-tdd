@@ -3,6 +3,6 @@ package org.example;
 public class Main {
 
     public static String fizzbuzz(int number) {
-        return "4";
+        return String.valueOf(number);
     }
 }

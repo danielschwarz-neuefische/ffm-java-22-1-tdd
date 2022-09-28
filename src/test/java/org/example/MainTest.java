@@ -19,4 +19,17 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void convert1ToString() {
+        // given
+        int number = 1;
+
+        // when
+        String actual = Main.fizzbuzz(number);
+
+        // then
+        String expected = "1";
+        assertEquals(expected, actual);
+    }
+
 }
