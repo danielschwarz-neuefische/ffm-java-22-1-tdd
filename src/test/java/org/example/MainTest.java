@@ -45,4 +45,17 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void when10thenReturnBuzz() {
+        // given
+        int number = 10;
+
+        // when
+        String actual = Main.fizzbuzz(number);
+
+        // then
+        String expected = "buzz";
+        assertEquals(expected, actual);
+    }
+
 }
