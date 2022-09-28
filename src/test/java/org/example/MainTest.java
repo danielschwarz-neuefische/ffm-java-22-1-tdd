@@ -32,4 +32,17 @@ class MainTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void when9thenReturnFizz() {
+        // given
+        int number = 9;
+
+        // when
+        String actual = Main.fizzbuzz(number);
+
+        // then
+        String expected = "fizz";
+        assertEquals(expected, actual);
+    }
+
 }
